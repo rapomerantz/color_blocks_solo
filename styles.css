@@ -1,0 +1,75 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: whitesmoke;
+}
+
+header {
+  background-color: PeachPuff;
+}
+
+h1 {
+  margin: 0;
+  padding: 10px;
+  padding-left: 25px;
+  font-size: 50px;
+  font-family: cursive;
+}
+
+h2 {
+  background-color: whitesmoke;
+  margin: 0;
+  padding: 10px;
+  padding-left: 40px;
+  font-family: cursive;
+  font-size: 30px;
+}
+
+.content {
+  background-color: teal;
+
+
+}
+
+.line {
+  border: 1px solid black;
+  height: 80%;
+
+}
+
+.block1 {
+  max-width: 100px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: red;
+  float: left;
+}
+
+.block2 {
+  max-width: 100px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: blue;
+  float: left;
+
+}
+.block3 {
+  max-width: 100px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: green;
+  float: left;
+}
+.block4 {
+  max-width: 100px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: yellow;
+  float: left;
+}

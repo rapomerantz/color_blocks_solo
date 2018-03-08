@@ -1,0 +1,38 @@
+HTML/CSS
+
+start w/ layout before you tweak/finetune
+  consider starting w/ obnoxious colors for different sections so you dont
+  get wrapped up on that.
+
+only 1 h1 per page - specific for SEO purposes
+
+Tags can be nested in other tags
+
+DIVs are you wrappers - used for padding, among other things
+  HEADER & FOOTER is pretty much a DIV
+
+Tag & Element are essentially interchangeable
+
+Empty DIV tags have NO HEIGHT
+
+HTML tags can have multiple classes - sep. by a space
+
+CSS content that is further down the page overwrites previous CSS styling
+
+HIERARCHY ORDER (top overwrites the one below)
+  ID
+  Class
+  Element
+
+********        ********      ********      ********      ********
+CLEARING STANDARD PADDING AND margin
+    body, html {
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      margin: 0;
+      padding: 10px;
+    }
+********        ********      ********      ********      ********
