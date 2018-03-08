@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <script src="jquery-3.3.1.js" charset="utf-8"></script>
     <script src="client.js" charset="utf-8"></script>
     <link rel="stylesheet" href="styles.css">
     <title>Atticus Color Blocks</title>
@@ -12,19 +13,16 @@
       <h1>Color.Blocks.Atticus</h1>
       <h2>a solo homework assignment</h2>
     </header>
-    <div class= "content">
-      <!-- <div class="layout"> -->
-        <div class="block1 line"></div>
-      <!-- </div> -->
-      <!-- <div class="layout"> -->
-        <div class="block2 line"></div>
-      <!-- </div> -->
-      <!-- <div class="layout"> -->
-        <div class="block3 line"></div>
-      <!-- </div> -->
-      <!-- <div class="layout"> -->
-        <div class="block4 line"></div>
-      <!-- </div> -->
+    <div id="redCounter" class="colorCounter"></div>
+    <div id="blueCounter" class="colorCounter"></div>
+    <div id="greenCounter" class="colorCounter"></div>
+    <div id="yellowCounter" class="colorCounter"></div>
+    <button type="button" id="redButton" class="submitButtons">Red!</button>
+    <button type="button" id="blueButton" class="submitButtons">Blue!</button>
+    <button type="button" id="greenButton" class="submitButtons">Green!</button>
+    <button type="button" id="yellowButton" class="submitButtons">Yellow!</button>
+    <div id="content">
+
     </div>
   </body>
 </html>
